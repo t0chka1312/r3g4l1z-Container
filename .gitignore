@@ -1,0 +1,10 @@
+# Archivos de sistema
+.DS_Store
+*.log
+
+# Claves privadas externas
+id_rsa_regaliz*
+reverse*
+
+# Archivos temporales
+uploads/
