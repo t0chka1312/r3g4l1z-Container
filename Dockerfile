@@ -3,7 +3,7 @@ FROM php:8.2-apache
 # Instalar OpenSSH y sudo
 RUN apt-get update && \
     apt-get install -y openssh-server sudo && \
-    mkdir /var/run/sshd
+    mkdir -p /var/run/sshd
 
 # Crear usuario r3g4l1z con shell y permisos sudo sobre chmod sin contraseña
 RUN useradd -m -s /bin/bash r3g4l1z && \
