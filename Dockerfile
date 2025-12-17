@@ -24,6 +24,7 @@ RUN chown r3g4l1z:r3g4l1z /home/r3g4l1z/.ssh/id_rsa && \
 # Crear flag pública
 RUN echo "r3g4l1z{p4y_4tt3nt10n_t0_3xt3ns10ns}" > /home/r3g4l1z/flag.txt && \
     chown r3g4l1z:r3g4l1z /home/r3g4l1z/flag.txt && \
+    chmod 755 /home/r3g4l1z/ && \
     chmod 644 /home/r3g4l1z/flag.txt
 
 # Crear flag privada
